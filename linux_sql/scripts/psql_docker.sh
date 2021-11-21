@@ -22,8 +22,8 @@ case $cmd in
       exit 1
     fi
 
-    docker volume
-    docker run docker run --name jrvs-psql -e POSTGRES_USER="$db_username" -e POSTGRES_PASSWORD="$db_password" -d -v pGDATA=/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
+    docker volume create pg_data
+    docker run --name jrvs-psql -e POSTGRES_USER="$db_username" -e POSTGRES_PASSWORD="$db_password" -d -v pGDATA=/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
     exit $?
     ;;
 
