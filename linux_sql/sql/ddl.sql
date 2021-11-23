@@ -18,5 +18,3 @@ CREATE TABLE PUBLIC.host_usage (
      disk_io INT NOT NULL,
      disk_available INT NOT NULL
      );
-
-)
