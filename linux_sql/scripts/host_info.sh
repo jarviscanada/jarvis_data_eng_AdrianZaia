@@ -16,18 +16,18 @@ fi
 
 #Store Variables
 vmstat_mb=$(vmstat --unit M)
-lscpu_out= `lscpu`
+lscpu_out=`lscpu`
 
 
 
 #Hardware Specs
 hostname=$(hostname -f)
-cpu_number=$(echo "lscpu_out" |grep -E "^CPU\(s\):" | awk '{print $2}' | xargs)
-cpu_architecture=$(echo "lscpu_out" |grep -E "^CPU Architecture:" | awk '{print $2}' | xargs)
-cpu_model=$(echo "lscpu_out" |grep -E "^CPU Model:" | awk '{print $3 $4 $5}' | xargs)
-cpu_mhz=$(echo "lscpu_out" |grep -E "^CPU MHz:" | awk '{print $3}' | xargs)
-l2_cache=$(echo "lscpu_out" |grep -E "^L2 Cache:" | awk '{print $3}' | xargs)
-total_mem=$(grep -E MemTotal /proc/meminfo | awk '{print $3}' | xargs)
+cpu_number=$(echo "$lscpu_out" |grep -E "^CPU\(s\):" | awk '{print $2}' | xargs)
+cpu_architecture=$(echo "$lscpu_out" |grep -E "^CPU Architecture:" | awk '{print $2}' | xargs)
+cpu_model=$(echo "$lscpu_out" |grep -E "^CPU Model:" | awk '{print $3 $4 $5}' | xargs)
+cpu_mhz=$(echo "$lscpu_out" |grep -E "^CPU MHz:" | awk '{print $3}' | xargs)
+l2_cache=$(echo "$lscpu_out" |grep -E "^L2 Cache:" | awk '{print $3}' | xargs)
+total_mem=$(grep -E MemTotal /proc/meminfo | awk '{print $2 $3}' | xargs)
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 
