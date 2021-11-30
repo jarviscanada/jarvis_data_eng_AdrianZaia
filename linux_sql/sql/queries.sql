@@ -1,4 +1,4 @@
-//Query 1
+/* Query 1 */
 select
 	cpu_number,
 	id,
@@ -8,7 +8,7 @@ from
 order by
 	sum(total_mem) over (partition by cpu_number)
     
-//Query 2
+/* Query 2 */
 select
 	host_id,
 	host_name,
@@ -25,7 +25,7 @@ group by
 	"timestamp";
 
 
-//Query 3
+/* Query 3 */
 select
 	host_id,
 	round5(time_stamp) as round5_interval,
