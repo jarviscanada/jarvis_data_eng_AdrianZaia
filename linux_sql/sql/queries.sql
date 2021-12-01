@@ -39,3 +39,4 @@ having
 	count(*) < 3
 order by
 	round5(time_stamp);
+
