@@ -24,6 +24,14 @@ group by
 	hostname,
 	"timestamp";
 
+/*round5 function */
+CREATE FUNCTION round5(ts timestamp) RETURNS timestamp AS
+$$
+BEGIN
+    RETURN date_trunc('hour', ts) + date_part('minute', ts):: int / 5 * interval '5 min';
+END;
+$$
+    LANGUAGE PLPGSQL;
 
 /* Query 3 */
 select
