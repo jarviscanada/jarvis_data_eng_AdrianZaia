@@ -66,4 +66,6 @@ This project was implemented using Docker and creating containers within Docker 
 # Improvements
 1. Double check my code for errors before pushing onto the github branch 
 2. Make it easier for people to use my code (i.e better comments in code)
-3. Compress my code so it takes up less space
+3. Optomize my code to take up less space and run faster
+
+
