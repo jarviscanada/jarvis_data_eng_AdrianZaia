@@ -29,6 +29,24 @@ export PGPASSWORD = 'password'
 psql -h HOST_NAME -U USER_NAME -d DB_NAME -W
 ```
 
+Finally, now that we have everything setup, we can extract the data using the two shell scripts we created. For hardware we use the host_info.sh script, for memory usage we execute the host_usage script.
+
+```console
+# Skeleton Code for Hardware Info
+./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
+
+# Example Local User for Hardware Info
+./scripts/host_info.sh "localhost" 5432 "host_agent" "cool_user" "cool_password"
+
+# Skeleton Code for Memeory Usage
+./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
+
+# Example Local User for Memory Usage
+./scripts/host_usage.sh "localhost" 5432 "host_agent" "cool_user" "cool_password"
+```
+
+
+
 ## Implementation
 This project was implemented using Docker and creating containers within Docker to store information. On top of this, Bash scripting was used to make the function automated and is being triggered every minute through the use of crontab
 
