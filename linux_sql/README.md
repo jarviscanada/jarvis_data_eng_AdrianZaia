@@ -45,8 +45,6 @@ Finally, now that we have everything setup, we can extract the data using the tw
 ./scripts/host_usage.sh "localhost" 5432 "host_agent" "cool_user" "cool_password"
 ```
 
-
-
 ## Implementation
 This project was implemented using Docker and creating containers within Docker to store information. On top of this, Bash scripting was used to make the function automated and is being triggered every minute through the use of crontab
 
