@@ -17,4 +17,21 @@ For starters, we have to create a psql instance using docker and create a contai
 ./scripts/psql_docker stop
 ```
 
+Once we have created a PSQL the instance, we want to startup the postgres database
+```Console
+# Postgres Install
+sudo yum install -y postgresql
+
+# Export Password
+export PGPASSWORD = 'password'
+
+# Connect To Database
+psql -h HOST_NAME -U USER_NAME -d DB_NAME -W
+```
+
+## Implementation
+This project was implemented using Docker and creating containers within Docker to store information. On top of this, Bash scripting was used to make the function automated and is being triggered every minute through the use of crontab
+
+### Scripts
+
 
