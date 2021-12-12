@@ -1,4 +1,4 @@
-elect
+select
 	cpu_number,
 	id,
 	total_mem
