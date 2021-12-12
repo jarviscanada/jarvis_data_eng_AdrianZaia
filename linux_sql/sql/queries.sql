@@ -1,3 +1,4 @@
+/*Query 1*/
 select
 	cpu_number,
 	id,
