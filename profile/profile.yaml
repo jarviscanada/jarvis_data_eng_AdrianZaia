@@ -1,0 +1,91 @@
+# Preferred name (Characters only)
+name: "Adrian Zaia"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: my name is Adrian Zaia and I graduated with Honours in Computer Science at Ryerson University. I first started learning programming in High School with Java and HTML, I gained an interest in seeing these programs come to life through my own thinking and implementation, it felt like learning a new language to speak. I attended Ryerson University for my degree and was able to land a co-op job in the summer with RBC as an Operational Risk Analyst. 
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Microsoft Suite
+    - Java
+    - HTML
+    - SQL
+    - CSS
+  # At least 5 skills
+  competent:
+    - C/C++
+    - Python
+    - C#
+    - Javascript
+    - Adobe Suite
+  # At least 5 skills
+  familiar:
+    - Unity Game Engine
+    - Unreal Game Engine
+    - GitHub
+    - Docker
+    - Node.JS
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Designed an MVP (Minimum Viable Product) that allows users to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submitting them to a database automatically. Developed through the use of: Linux CentOS 7, VNC, Git, Bash, Crontab, Docker, Github" 
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Video Game AI"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed an application that learns to play a browser racing simulator. Collaborated in a team to deliver the product within the duration of a hackathon. Implemented a reinforcement learning algorithm from JavaScript libraries.
+  - name: "Social Events Creator/Manager Application"
+    description: Created an application for hosting social gatherings or events. Implemented a feature that notifies the owner of the event of any suspicious behaviour. Developed during UofTHacks IV event, hosted at University of Toronto.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implementing projects to gain a deep understanding of new technology and software, while also working in an Agile & Scrum enviornment with my team members.
+  - title: "Operational Risk Analyst"
+    company: "RBC Royal Bank"
+    duration: "May 2018 - August 2018"
+    description: Handled and Reported monthly collected IFRS9 Data to my Manager. Created presentations on collected IFRS9 Data for my manager and superiors. Resolved various database issues by assisting various team members. Communicated with clients to resolve any unforseen problems within the company
+
+#List of edcuation
+education: 
+  - school_name: "Ryerson University"
+    duration: "2016-2021"
+    degree: "Bachelor of Computer Sciences"
+    department: "Computer Science Department"
+    awards_achievements: 
+        - "Honours in Computer Science"
+        - "Dean's List 2021"
+
+others:
+  - title: "Highschool Robotics Competition"
+    bullets: 
+        - "Participated as a team of two in a robotics competition in highschool, me working as the robot builder and the my partner as the programmer for what the robot does. Placed 2nd place across the all the participating schools"
+
+            
+
+

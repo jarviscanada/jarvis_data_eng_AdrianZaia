@@ -1,0 +1,88 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Honours in Computer Science",
+        "Dean's List 2021"
+      ],
+      "degree": "Bachelor of Computer Sciences",
+      "department": "Computer Science Department",
+      "duration": "2016-2021",
+      "school_name": "Ryerson University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia",
+  "highlighted_projects": [
+    {
+      "description": "Developed an application that learns to play a browser racing simulator. Collaborated in a team to deliver the product within the duration of a hackathon. Implemented a reinforcement learning algorithm from JavaScript libraries.",
+      "name": "Video Game AI"
+    },
+    {
+      "description": "Created an application for hosting social gatherings or events. Implemented a feature that notifies the owner of the event of any suspicious behaviour. Developed during UofTHacks IV event, hosted at University of Toronto.",
+      "name": "Social Events Creator/Manager Application"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Designed an MVP (Minimum Viable Product) that allows users to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submitting them to a database automatically. Developed through the use of: Linux CentOS 7, VNC, Git, Bash, Crontab, Docker, Github",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    }
+  ],
+  "name": "Adrian Zaia",
+  "others": [
+    {
+      "bullets": [
+        "Participated as a team of two in a robotics competition in highschool, me working as the robot builder and the my partner as the programmer for what the robot does. Placed 2nd place across the all the participating schools"
+      ],
+      "title": "Highschool Robotics Competition"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Implementing projects to gain a deep understanding of new technology and software, while also working in an Agile \u0026 Scrum enviornment with my team members.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "RBC Royal Bank",
+      "description": "Handled and Reported monthly collected IFRS9 Data to my Manager. Created presentations on collected IFRS9 Data for my manager and superiors. Resolved various database issues by assisting various team members. Communicated with clients to resolve any unforseen problems within the company",
+      "duration": "May 2018 - August 2018",
+      "title": "Operational Risk Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "C/C++",
+      "Python",
+      "C#",
+      "Javascript",
+      "Adobe Suite"
+    ],
+    "familiar": [
+      "Unity Game Engine",
+      "Unreal Game Engine",
+      "GitHub",
+      "Docker",
+      "Node.JS"
+    ],
+    "proficient": [
+      "Microsoft Suite",
+      "Java",
+      "HTML",
+      "SQL",
+      "CSS"
+    ]
+  },
+  "summary": "my name is Adrian Zaia and I graduated with Honours in Computer Science at Ryerson University. I first started learning programming in High School with Java and HTML, I gained an interest in seeing these programs come to life through my own thinking and implementation, it felt like learning a new language to speak. I attended Ryerson University for my degree and was able to land a co-op job in the summer with RBC as an Operational Risk Analyst."
+}
