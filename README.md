@@ -23,14 +23,14 @@ Linux Cluster Monitor[Github Link](https://github.com/jarviscanada/jarvis_data_e
 
 # Personal Projects
 
-DiscordBot| June 2020: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
+DiscordBot | June 2020: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
 
-Video Game AI| Jan 2017: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
+Video Game AI | Jan 2017: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
 
 
 # Work Experience
 
-Operational Risk Analyst| RBC Royal Bank of Canada | May 2018 - August 2018: Handled and reported monthly collected IFRS9 Data to my manager. I was tasked with creating presentations on the IFRS9 Data if there are were any inconsistencies from previous months of data. If any inconsistencies did come up, I was in charge of calling up the clients and ask to make sure there was nothing wrong with their data. On top of this, me and my team were tasked with communicating with employees in the company and resolve any issues that encountered as they tried to access databases.
+Operational Risk Analyst | RBC Royal Bank of Canada | May 2018 - August 2018: Handled and reported monthly collected IFRS9 Data to my manager. I was tasked with creating presentations on the IFRS9 Data if there are were any inconsistencies from previous months of data. If any inconsistencies did come up, I was in charge of calling up the clients and ask to make sure there was nothing wrong with their data. On top of this, me and my team were tasked with communicating with employees in the company and resolve any issues that encountered as they tried to access databases.
 
 # Education
 
