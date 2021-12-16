@@ -5,7 +5,9 @@ I am a Computer Science Graduate from Ryerson University. I first started learni
 # Skills
 
 Proficient: Microsoft Suite, Java, HTML, SQL, CSS
+
 Competent: C/C++, Python, C#, Javascript, Adobe Suite
+
 Familiar: Unity Game Engine, Unreal Game Engine, Github, Docker, Node.JS
 
 # Jarvis Projects
