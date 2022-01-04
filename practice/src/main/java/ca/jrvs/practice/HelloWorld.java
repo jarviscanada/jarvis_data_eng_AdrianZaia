@@ -1,4 +1,4 @@
-package ca.jrvs.apps.practice;
+package main.java.ca.jrvs.practice;
 
 class HelloWorld {
 
