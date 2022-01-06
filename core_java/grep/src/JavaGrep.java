@@ -42,7 +42,7 @@ public interface JavaGrep {
      *   @param lines = Matched Input String
      *   @throws IOException If Write Failed
      */
-    void writeToFile(List<String> lines) throws IOExceptionl
+    void writeToFile(List<String> lines) throws IOException;
 
     String getRootPath();
 
