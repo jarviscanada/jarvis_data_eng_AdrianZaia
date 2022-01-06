@@ -1,6 +1,6 @@
 package ca.jrvs.apps.grep;
 
-import ...
+import java.io.*;
 
 public class JavaGrepImp implements JavaGrep{
 
@@ -27,5 +27,7 @@ public class JavaGrepImp implements JavaGrep{
         } catch (Exception ex) {
             javaGrepImp.logger.error("Error: Unable to prcoess", ex);
         }
+}
+
 }
 
