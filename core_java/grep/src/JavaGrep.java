@@ -37,7 +37,7 @@ public interface JavaGrep {
     /**
      *   Write Lines to File
      * 
-     *   Explire: FileOutputStream, OutputStreamWriter, and BufferedWriter
+     *   Explore: FileOutputStream, OutputStreamWriter, and BufferedWriter
      * 
      *   @param lines = Matched Input String
      *   @throws IOException If Write Failed
