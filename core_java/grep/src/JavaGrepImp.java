@@ -61,9 +61,20 @@ public class JavaGrepImp implements JavaGrep{
         }
         writer.close();
     }
+    
+    
+    public void process() throws IOException {
+        List<String> matchedLines = new ArrayList<>();
 
-
-
+          for (File file : listFiles(rootPath)) {
+            for (String input : readLines(file)) {
+              if (containsPattern(input)) {
+                matchedLines.add(input);
+                writeToFile(matchedLines);}
+                
+              }
+          }
+    }
 
 
     public static void main(String[] args){
