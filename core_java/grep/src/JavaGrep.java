@@ -3,7 +3,7 @@ package ca.jrvs.apps.grep;
 import java.io.*;
 import java.util.List;
 
-public interface JavaGrep {
+public interface JavaGrep{
    
     /** 
      *   High-Level Search Workflow
@@ -17,7 +17,7 @@ public interface JavaGrep {
      *   @param rootDir = Root Directory
      *   @return All Files Under rootDir
      */
-    List<File> listFiles(string rootDir);
+    List<File> listFiles(String rootDir);
 
     /**
      *   Read File & Return All Lines

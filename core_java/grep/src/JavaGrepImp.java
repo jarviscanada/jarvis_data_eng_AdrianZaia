@@ -2,8 +2,9 @@ package ca.jrvs.apps.grep;
 
 import java.io.*;
 import java.util.*;
+import java.nio.file.*;
 import org.slf4j.*;
-import org.apache.*;
+import org.apache.log4j.BasicConfigurator;
 
 public class JavaGrepImp implements JavaGrep{
 
@@ -27,7 +28,7 @@ public class JavaGrepImp implements JavaGrep{
     public String getRoothPath() {
         return rootPath;
     }
-    public void setRoothPath(String rootPath){
+    public void setRootPath(String rootPath){
         this.rootPath = rootPath;
     }
 
@@ -45,7 +46,8 @@ public class JavaGrepImp implements JavaGrep{
         File root = new File(rootPath);
         return Arrays.asList(root.listFiles());
     }
-    public List<String> readLines(String rootPath){
+    
+    public List<String> readLines(File inputFile) throws IllegalArgumentException, IOException{
         Path filePath = inputFile.toPath();
         return Files.readAllLines(filePath);
     }
@@ -56,10 +58,10 @@ public class JavaGrepImp implements JavaGrep{
 
     public void writeToFile(List<String> output) throws IOException {
         FileWriter write = new FileWriter(outFile);
-        for (String input:lines) {
-            writer.write(input + System.lineSeparator());
+        for (String input : output) {
+            write.write(input + System.lineSeparator());
         }
-        writer.close();
+        write.close();
     }
     
     
@@ -78,11 +80,11 @@ public class JavaGrepImp implements JavaGrep{
 
 
     public static void main(String[] args){
-        if(args.legeth !=3){
-            throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
+        if(args.length !=3){
+            throw new IllegalArgumentException("USAGE: JavaGrep.java regex rootPath outFile");
         }
 
-        BasicConifgurator.configure();
+        BasicConfigurator.configure();
         
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
