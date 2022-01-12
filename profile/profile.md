@@ -27,7 +27,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 ## Highlighted Projects
 **Video Game AI**: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
 
-**DiscordBot**: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
+**DiscordBot**: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occurred. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
 
 
 ## Professional Experiences
