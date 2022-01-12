@@ -19,15 +19,15 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App: In-Progress.
+  - JDBC App: In-Progress.
+  - Grep App: Recreated the Linux Grep Tool, which is used to find specific phrases and words in a given file, through the use of Java Libraries and Maven on Visual Studio Code
 
 
 ## Highlighted Projects
-**Video Game AI**: Developed an application that learns to play a browser racing simulator. Collaborated in a team to deliver the product within the duration of a hackathon. Implemented a reinforcement learning algorithm from JavaScript libraries.
+**Video Game AI**: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
 
-**Social Events Creator/Manager Application**: Created an application for hosting social gatherings or events. Implemented a feature that notifies the owner of the event of any suspicious behaviour. Developed during UofTHacks IV event, hosted at University of Toronto.
+**DiscordBot**: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
 
 
 ## Professional Experiences
