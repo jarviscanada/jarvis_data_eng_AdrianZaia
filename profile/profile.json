@@ -18,7 +18,7 @@
       "name": "Video Game AI"
     },
     {
-      "description": "Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.",
+      "description": "Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occurred. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.",
       "name": "DiscordBot"
     }
   ],
