@@ -54,7 +54,7 @@ highlighted_projects:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
   - name: "DiscordBot"
-    description: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
+    description: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occurred. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
