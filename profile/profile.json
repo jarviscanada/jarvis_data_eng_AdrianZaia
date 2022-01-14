@@ -14,25 +14,24 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia",
   "highlighted_projects": [
     {
-      "description": "Developed an application that learns to play a browser racing simulator. Collaborated in a team to deliver the product within the duration of a hackathon. Implemented a reinforcement learning algorithm from JavaScript libraries.",
+      "description": "Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. The Universe software was implemented specifically for its ability to use a computer like a human and operate the game with a virtual mouse and keyboard. The AI agent was capable of looking at the pixels on a screen and gaining an understanding of the environment and would recursively learn its surroundings to know the safe location. Through the use of a reward system, the agent learned what was the right and wrong maneuver to complete a race track.",
       "name": "Video Game AI"
     },
     {
-      "description": "Created an application for hosting social gatherings or events. Implemented a feature that notifies the owner of the event of any suspicious behaviour. Developed during UofTHacks IV event, hosted at University of Toronto.",
-      "name": "Social Events Creator/Manager Application"
+      "description": "Developed a bot for Discord through the use of Node.js and Javascript as a means to accomplish certain tasks. One of the commands would command the bot to show an image. The command used was \"!meme\" and this triggered the bot to go through the array of given websites and then, through the use of a random integer generator function, would pick out an image at random to display for everyone in that particular group chat. Another task the bot was responsible for, was to monitor a specific Livestream and to alert everyone in a server of any changes. This was accomplished by using IFTTT (If This Then That) website and integrating Webhooks into the bot and once a person has begun streaming for the specified channel, the bot would send an alert of the Livestream.",
+      "name": "Discord Bot"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Designed an MVP (Minimum Viable Product) that allows users to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submitting them to a database automatically. Developed through the use of: Linux CentOS 7, VNC, Git, Bash, Crontab, Docker, Github",
+      "description": "Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute throguh Crontab.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex and searches for that same regex pattern in a given directory and then outputs the lines, matching the input, to an output file. The app itself was written on Java and has Stream API implemented for better memory usage. ",
+        "JDBC: In-Progress"
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
@@ -42,7 +41,7 @@
   "others": [
     {
       "bullets": [
-        "Participated as a team of two in a robotics competition in highschool, me working as the robot builder and the my partner as the programmer for what the robot does. Placed 2nd place across the all the participating schools"
+        "Participated as a team of two in a robotics competition in highschool, I was working as the robot builder that accomplishes a specific task, such as an elevator. While  my partner as the programmer for what the robot does through the use of C++. Placed in 2nd place across the all the participating schools"
       ],
       "title": "Highschool Robotics Competition"
     }
@@ -50,13 +49,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Implementing projects to gain a deep understanding of new technology and software, while also working in an Agile \u0026 Scrum enviornment with my team members.",
+      "description": "Developing, and implementing, programs and functions through the use of software and programming languages that are the standard for today's workplace. Also worked in an Agile \u0026 Scrum environment with my assigned team members. I am tasked to conduct daily Scrum meetings with my team and write down notes on any new developments with me and my team's projects. We conduct Sprint meetings every two weeks to discuss what went right during the Sprint and look to what we are going to work on and how to work on it more efficiently than the previous project.",
       "duration": "2021-present",
       "title": "Software Developer"
     },
     {
       "company": "RBC Royal Bank",
-      "description": "Handled and Reported monthly collected IFRS9 Data to my Manager. Created presentations on collected IFRS9 Data for my manager and superiors. Resolved various database issues by assisting various team members. Communicated with clients to resolve any unforseen problems within the company",
+      "description": "Handled and maintained IFRS9 data that was automatically recorded into multiple JDBC databases. I was able to access, and edit these databases through the use of the Squirrel SQL tool and write down any errors I encountered. Based on the errors I encountered, I would create presentations on Microsoft Powerpoint about the errors and present them to my team for review. I was also tasked with constantly checking a work email that employees of RBC would write to if they encountered an issue and I would assist them through their problems.",
       "duration": "May 2018 - August 2018",
       "title": "Operational Risk Analyst"
     }
@@ -67,22 +66,28 @@
       "Python",
       "C#",
       "Javascript",
-      "Adobe Suite"
+      "Adobe Suite",
+      "IntelliJ",
+      "Linux/Bash"
     ],
     "familiar": [
       "Unity Game Engine",
       "Unreal Game Engine",
-      "GitHub",
+      "Git",
       "Docker",
-      "Node.JS"
+      "Node.JS",
+      "React",
+      "OpenAI Universe"
     ],
     "proficient": [
-      "Microsoft Suite",
       "Java",
       "HTML",
       "SQL",
-      "CSS"
+      "CSS",
+      "Agile/Scrum",
+      "Github",
+      "Visual Studio Code"
     ]
   },
-  "summary": "my name is Adrian Zaia and I graduated with Honours in Computer Science at Ryerson University. I first started learning programming in High School with Java and HTML, I gained an interest in seeing these programs come to life through my own thinking and implementation, it felt like learning a new language to speak. I attended Ryerson University for my degree and was able to land a co-op job in the summer with RBC as an Operational Risk Analyst."
+  "summary": "I graduated with Honours in Computer Science at Ryerson University in 2021. Throughout my time as an undergraduate, I was able to expand my knowledge in object-oriented programming languages through the courses offered by my university's curriculum and through extracurricular clubs that were focused on specific programming languages, or software, geared towards my interests. I was able to land a co-op job at RBC as an Operational Risk Analyst for the summer of 2018 which helped me gain a deeper insight into the inner workings of big companies and how the Agile Framework functions in a real-world setting. I have joined Jarvis recently as a consultant to hone my skills in different programming fields outside of object-oriented programming and hope to show what I can do with my ideas and knowledge."
 }
