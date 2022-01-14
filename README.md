@@ -1,38 +1,46 @@
 # Adrian Zaia . Jarvis Consulting
-I am a Computer Science Graduate from Ryerson University. I first started learning about programming in High School with Java and HTML, i gained an interest in seeing programs come to life through my own thinking and implementation, it felt like learning a new langauge to speak. I pursued with this passion for programming and attended Ryerson University for my degree and landed a co-op job in the summer with RBC as an Operational Risk Analyst.
+
+I graduated with Honours in Computer Science at Ryerson University in 2021. Throughout my time as an undergraduate, I was able to expand my knowledge in object-oriented programming languages through the courses offered by my university's curriculum and through extracurricular clubs that were focused on specific programming languages, or software, geared towards my interests. I was able to land a co-op job at RBC as an Operational Risk Analyst for the summer of 2018 which helped me gain a deeper insight into the inner workings of big companies and how the Agile Framework functions in a real-world setting. I have joined Jarvis recently as a consultant to hone my skills in different programming fields outside of object-oriented programming and hope to show what I can do with my ideas and knowledge.
+
+## Skills
+
+**Proficient:** Java, HTML, SQL, CSS, Agile/Scrum, Github, Visual Studio Code
+
+**Competent:** C/C++, Python, C#, Javascript, Adobe Suite, IntelliJ, Linux/Bash
+
+**Familiar:** Unity Game Engine, Unreal Game Engine, Git, Docker, Node.JS, React, OpenAI Universe
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia)
 
 
-# Skills
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/linux_sql)]: Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute throguh Crontab.
 
-Proficient: Microsoft Suite, Java, HTML, SQL, CSS
-
-Competent: C/C++, Python, C#, Javascript, Adobe Suite
-
-Familiar: Unity Game Engine, Unreal Game Engine, Github, Docker, Node.JS
-
-# Jarvis Projects
-
-Linux Cluster Monitor[Github Link](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/linux_sql): Developed tools that can monitor nodes that are connected into a Linux Cluster, the tools allow users to track hardware specifications and reource usage in real time and registering the collected data into a database. This program was created using tools such as, Linux Instance, Git, GitHub, Docker, PSQL and Crontab.
- 
-2. [Core Java Apps](./core_java) In-progress
-3. [Springboot Trading REST API](./springboot) In-progress
-4. [Hadoop/Hive](./hadoop) In-progress
-5. [Spark/Scala](./spark) In-progress
-6. [Cloud/DevOps](./cloud_devops) In-progress
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/core_java)]:
+      
+  - Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex and searches for that same regex pattern in a given directory and then outputs the lines, matching the input, to an output file. The app itself was written on Java and has Stream API implemented for better memory usage. 
+  - JDBC: In-Progress
 
 
-# Personal Projects
+## Highlighted Projects
+**Video Game AI**: Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. The Universe software was implemented specifically for its ability to use a computer like a human and operate the game with a virtual mouse and keyboard. The AI agent was capable of looking at the pixels on a screen and gaining an understanding of the environment and would recursively learn its surroundings to know the safe location. Through the use of a reward system, the agent learned what was the right and wrong maneuver to complete a race track.
 
-DiscordBot | June 2020: Developed a bot that can fetch data from servers and if a specific part of the data changes, it will alert everyone in a group that bot is connected to of the changes that have occured. In this regard, the bot tells everyone that a specific person has begun a livestream on a website.
-
-Video Game AI | Jan 2017: Developed an application that learns to play a racing simulator. Through a use of a reinforcement algorithim implemented from a Javascript library, the program woul repeatedly run the track of a race until it eventually found the proper way to do the course in the fastest time.
+**Discord Bot**: Developed a bot for Discord through the use of Node.js and Javascript as a means to accomplish certain tasks. One of the commands would command the bot to show an image. The command used was "!meme" and this triggered the bot to go through the array of given websites and then, through the use of a random integer generator function, would pick out an image at random to display for everyone in that particular group chat. Another task the bot was responsible for, was to monitor a specific Livestream and to alert everyone in a server of any changes. This was accomplished by using IFTTT (If This Then That) website and integrating Webhooks into the bot and once a person has begun streaming for the specified channel, the bot would send an alert of the Livestream.
 
 
-# Work Experience
+## Professional Experiences
 
-Operational Risk Analyst | RBC Royal Bank of Canada | May 2018 - August 2018: Handled and reported monthly collected IFRS9 Data to my manager. I was tasked with creating presentations on the IFRS9 Data if there are were any inconsistencies from previous months of data. If any inconsistencies did come up, I was in charge of calling up the clients and ask to make sure there was nothing wrong with their data. On top of this, me and my team were tasked with communicating with employees in the company and resolve any issues that encountered as they tried to access databases.
+**Software Developer, Jarvis (2021-present)**: Developing, and implementing, programs and functions through the use of software and programming languages that are the standard for today's workplace. Also worked in an Agile & Scrum environment with my assigned team members. I am tasked to conduct daily Scrum meetings with my team and write down notes on any new developments with me and my team's projects. We conduct Sprint meetings every two weeks to discuss what went right during the Sprint and look to what we are going to work on and how to work on it more efficiently than the previous project.
 
-# Education
+**Operational Risk Analyst, RBC Royal Bank (May 2018 - August 2018)**: Handled and maintained IFRS9 data that was automatically recorded into multiple JDBC databases. I was able to access, and edit these databases through the use of the Squirrel SQL tool and write down any errors I encountered. Based on the errors I encountered, I would create presentations on Microsoft Powerpoint about the errors and present them to my team for review. I was also tasked with constantly checking a work email that employees of RBC would write to if they encountered an issue and I would assist them through their problems.
 
-Ryerson University | 2016-2021 | Bachelor of Science(Honours) 
 
+## Education
+**Ryerson University (2016-2021)**, Bachelor of Computer Sciences, Computer Science Department
+- Honours in Computer Science
+- Dean's List 2021
+
+
+## Miscellaneous
+- Participated as a team of two in a robotics competition in highschool, I was working as the robot builder that accomplishes a specific task, such as an elevator. While  my partner as the programmer for what the robot does through the use of C++. Placed in 2nd place across the all the participating schools
