@@ -15,7 +15,7 @@ I graduated with Honours in Computer Science at Ryerson University in 2021. Thro
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/linux_sql)]: Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute throguh Crontab.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/linux_sql)]: Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute through Crontab.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/core_java)]:
       

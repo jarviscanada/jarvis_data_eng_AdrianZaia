@@ -24,7 +24,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute throguh Crontab.",
+      "description": "Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute through Crontab.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
