@@ -43,4 +43,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 
 
 ## Miscellaneous
-- Participated as a team of two in a robotics competition in highschool, I was working as the robot builder that accomplishes a specific task, such as an elevator. While  my partner as the programmer for what the robot does through the use of C++. Placed in 2nd place across the all the participating schools
+- Participated as a team of two in a robotics competition, I was working as the robot builder that would accomplish a specific task, such as an elevator. While  my partner as the programmer for what the robot does through the use of C++. We placed in 2nd place across all participants.
