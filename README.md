@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/core_java)]:
       
-  - Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex and searches for that same regex pattern in a given directory and then outputs the lines, matching the input, to an output file. The app itself was written on Java and has Stream API implemented for better memory usage. 
+  - Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex and searches for that same regex pattern in a given directory and then outputs the lines, matching the input, to an output file. The app itself was written on Java 8 and made on Visual Studio Code.
   - JDBC: In-Progress
 
 
