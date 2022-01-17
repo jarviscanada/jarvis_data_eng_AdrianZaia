@@ -14,7 +14,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia",
   "highlighted_projects": [
     {
-      "description": "Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. We imported Universe and Gym, a toolkit for comparing RL (Reinforcement Learning) algorithms. The game was hosted on a VNC server, this allows the bot to view the game environment. Then the Universe library allowed the AI Agent to function as a VNC client and control the game the same way a human interacts with computer programs.",
+      "description": "Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. We imported Universe and Gym, a toolkit for comparing RL (Reinforcement Learning) algorithms. The game was hosted on a VNC server, this allows the bot to view the game environment and learn how the game functions and how to maneuver a race track. Then the Universe library allowed the AI Agent to function as a VNC client and give the AI the required controls to sucessfully complete a race track.",
       "name": "Video Game AI"
     },
     {
