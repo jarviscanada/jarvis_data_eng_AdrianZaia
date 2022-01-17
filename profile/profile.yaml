@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I graduated with Honours in Computer Science at Ryerson University in 2021. Throughout my time as an undergraduate, I was able to expand my knowledge in object-oriented programming languages through the courses offered by my university's curriculum and through extracurricular clubs that were focused on specific programming languages, or software, geared towards my interests. I was able to land a co-op job at RBC as an Operational Risk Analyst for the summer of 2018 which helped me gain a deeper insight into the inner workings of big companies and how the Agile Framework functions in a real-world setting. I have joined Jarvis recently as a consultant to hone my skills in different programming fields outside of object-oriented programming and hope to show what I can do with my ideas and knowledge.  
+summary: I graduated with Honours in Computer Science at Ryerson University in 2021. Throughout my time as an undergraduate, I was able to expand my knowledge in object-oriented programming languages through the courses offered by my university's curriculum and through extracurricular clubs that were focused on specific programming languages, or software, geared towards my interests. I was able to land a co-op job at RBC as an Operational Risk Analyst for the summer of 2018, which helped me gain a deeper insight into the inner workings of big companies and how the Agile Framework functions in a real-world setting. I recently joined Jarvis as a consultant to hone my skills in different programming fields outside of object-oriented programming and hope to show what I can do with my ideas and knowledge.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -44,11 +44,11 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Designed an MVP (Minimum Viable Product) that allows the Jarvis Linux Cluster Administration team to monitor a Linux Cluster that tracks each specific nodes hardware and resource usage in real time and submits them to a database automatically. This was accomplished through the use of Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, maintained by Docker, every minute through Crontab."
+    description: "Designed an MVP (Minimum Viable Product) that monitors a Linux Cluster that tracks each specific node's hardware and resource usage in real-time and automatically persists data to a database. The application was implemented using Bash Scripts on a Linux CentOS 7 virtual machine, and the data collected is stored on a PostgreSQL database, provisioned by Docker, every minute through Crontab."
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex and searches for that same regex pattern in a given directory and then outputs the lines, matching the input, to an output file. The app itself was written on Java 8 and made on Visual Studio Code."
+      - "Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex, searches for that same regex pattern in a given directory, and then outputs the lines, matching the input, to an output file. The app was written on Java 8 and made on Visual Studio Code."
       - "JDBC: In-Progress"
 # List of personal or academic projects
 # Feel free to add more projects
@@ -56,9 +56,10 @@ highlighted_projects:
     #project name
   - name: "Video Game AI"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. The Universe software was implemented specifically for its ability to use a computer like a human and operate the game with a virtual mouse and keyboard. The AI agent was capable of looking at the pixels on a screen and gaining an understanding of the environment and would recursively learn its surroundings to know the safe location. Through the use of a reward system, the agent learned what was the right and wrong maneuver to complete a race track.   
+    description: Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. We imported Universe and Gym, a toolkit for comparing RL (Reinforcement Learning) algorithms. The game was hosted on a VNC server, this allows the bot to view the game environment. Then the Universe library allowed the AI Agent to function as a VNC client and control the game the same way a human interacts with computer programs.
+
   - name: "Discord Bot"
-    description: Developed a bot for Discord through the use of Node.js and Javascript as a means to accomplish certain tasks. One of the commands would command the bot to show an image. The command used was "!meme" and this triggered the bot to go through the array of given websites and then, through the use of a random integer generator function, would pick out an image at random to display for everyone in that particular group chat. Another task the bot was responsible for, was to monitor a specific Livestream and to alert everyone in a server of any changes. This was accomplished by using IFTTT (If This Then That) website and integrating Webhooks into the bot and once a person has begun streaming for the specified channel, the bot would send an alert of the Livestream.
+    description: Developed a bot for Discord through the use of Node.js and Javascript as a means to accomplish its assigned tasks such as grabbing an image with a specific Reddit tag or giving an alert about a webpage change. I built the bot to reply to a specified message posted in a chat, the message being "!meme", which triggers the Javascript code to parse through the given ArrayList of websites. The bot then chooses from hundreds of image results by using a Random Integer Generator then posts the image with the corresponding result. Another task the bot was responsible for, was to monitor a specific Livestream webpage and send an alert to everyone on a Discord server of any changes. I accomplished this by using IFTTT(If This Then That) API and integrating Webhooks into the bot. Then, once a person has begun streaming for the specified channel, the bot detects the change through the API and sends a message alert of the Livestream to a specified channel.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -69,11 +70,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developing, and implementing, programs and functions through the use of software and programming languages that are the standard for today's workplace. Also worked in an Agile & Scrum environment with my assigned team members. I am tasked to conduct daily Scrum meetings with my team and write down notes on any new developments with me and my team's projects. We conduct Sprint meetings every two weeks to discuss what went right during the Sprint and look to what we are going to work on and how to work on it more efficiently than the previous project.
+    description: Developing and implementing programs, such as the Java GREP app, using modern software and programming languages. I also work in an Agile & Scrum environment with my assigned team members. I am tasked with conducting daily Scrum meetings with my team and writing down notes on any new developments with my team's projects. We conduct Sprint meetings every two weeks to discuss what went right during the Sprint and look to what we will work on and how to work on it more efficiently than the previous project.
   - title: "Operational Risk Analyst"
     company: "RBC Royal Bank"
     duration: "May 2018 - August 2018"
-    description: Handled and maintained IFRS9 data that was automatically recorded into multiple JDBC databases. I was able to access, and edit these databases through the use of the Squirrel SQL tool and write down any errors I encountered. Based on the errors I encountered, I would create presentations on Microsoft Powerpoint about the errors and present them to my team for review. I was also tasked with constantly checking a work email that employees of RBC would write to if they encountered an issue and I would assist them through their problems.
+    description: Handled and maintained IFRS9 data that was automatically recorded into multiple JDBC databases. I was able to access and edit the JDBC databases through the use of the Squirrel SQL tool and write down any errors I encountered. Based on the errors I encountered, I made contact with the proper entities to discuss the accuracy of the data. I was also tasked with constantly checking a work email that employees of RBC would write to if they encountered an issue, and I would assist them through their problems.
  
 #List of edcuation
 education: 
@@ -86,9 +87,12 @@ education:
         - "Dean's List 2021"
 
 others:
-  - title: "Highschool Robotics Competition"
+  - title: "Robotics Competition"
     bullets: 
-        - "Participated as a team of two in a robotics competition, I was working as the robot builder that would accomplish a specific task, such as an elevator. While  my partner as the programmer for what the robot does through the use of C++. We placed in 2nd place across all participants."
+        - "Participated as a team of two in a robotics competition, I was working as the robot builder that would accomplish a specific task, such as an elevator. While my partner was the programmer for what the robot does through the use of C++. We placed in 2nd place across all participants."
+  - title: "DJ at Ripley's Aquarium"
+    bullets:
+        - "Worked as a DJ at a charity event, hosted by Toronto Police at Ripley's Aquarium. I was tasked with setting up the necessary equipment for the event and making sure the sound and electronics were in working order before the event began. I created a mix of music that was enjoyable for both kids and adults alike."
 
             
 
