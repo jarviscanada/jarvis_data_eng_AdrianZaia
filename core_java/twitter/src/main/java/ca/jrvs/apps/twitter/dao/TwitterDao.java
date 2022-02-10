@@ -3,13 +3,12 @@ package main.java.ca.jrvs.apps.twitter.dao;
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.model.Tweet;
 import com.google.gdata.util.common.base.PercentEscaper;
+import ca.jrvs.apps.twitter.util.JsonUtil;
 import com.sun.jndi.toolkit.url.Uri;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
-
 import javax.management.RuntimeErrorException;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.util.EntityUtils;
@@ -87,4 +86,29 @@ public class TwitterDao implements CrdDao<Tweet, String> {
 
       return tweet;
     }
+
+    @Override
+    public Tweet findById(String s) {
+      URI uri;
+  
+      PercentEscaper percentEscaper = new PercentEscaper("", false);
+      String id = "id" + EQUAL + s;
+      uri = URI.create(API_BASE_URI + SHOW_PATH + QUERY_SYM + id);
+      HttpResponse response = httpHelper.httpGet(uri);
+  
+      return parseResponseBody(response, HTTP_OK);
+    }
+  
+  
+    @Override
+    public Tweet deleteById(String s) {
+      URI uri;
+  
+      PercentEscaper percentEscaper = new PercentEscaper("", false);
+      uri = URI.create(API_BASE_URI + DELETE_PATH + "/" + s + ".json");
+      HttpResponse response = httpHelper.httpPost(uri);
+  
+      return parseResponseBody(response, HTTP_OK);
+    }
+  
 }
