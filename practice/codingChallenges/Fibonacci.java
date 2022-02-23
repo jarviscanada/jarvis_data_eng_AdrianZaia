@@ -1,9 +1,10 @@
 class Fibonacci {
+    
     public int fib(int n) {
-        // list to store numbers calculate so far
+        // list for numbers
         int f[] = new int[n+2];
         
-        // the first two numbers are 0 and 1
+        // 0 and 1 are the first numbers
         f[0] = 0;
         f[1] = 1;
         
