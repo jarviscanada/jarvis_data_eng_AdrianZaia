@@ -20,8 +20,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdrianZaia/tree/master/core_java)]:
       
   - Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex, searches for that same regex pattern in a given directory, and then outputs the lines, matching the input, to an output file. The app was written on Java 8 and made on Visual Studio Code.
-  - JDBC: In-Progress
-
+  - JDBC App: Implemented a JDBC to connect to a PSQL Database and gives the user the ability to interact and modify the PSQL database independantly of the persistance layer
+  - Twitter App: A Java application that allows the user to perform CRUD operations using the command line, implementated using Twitter's Rest API and created using Java/Maven
 
 ## Highlighted Projects
 **Video Game AI**: Developed an AI agent, through the use of OpenAI's Universe Software and Python, to play a browser racing game. We imported Universe and Gym, a toolkit for comparing RL (Reinforcement Learning) algorithms. The game was hosted on a VNC server, this allows the bot to view the game environment and learn how the game functions and how to maneuver a race track. Then the Universe library allowed the AI Agent to function as a VNC client and give the AI the required controls to sucessfully complete a race track.
