@@ -49,7 +49,8 @@ jarvis_projects:
     git_url: "/core_java"
     description:
       - "Grep App: Developed a Java application that functions similarly to the grep command in Linux. This application takes in a user inputted regex, searches for that same regex pattern in a given directory, and then outputs the lines, matching the input, to an output file. The app was written on Java 8 and made on Visual Studio Code."
-      - "JDBC: In-Progress"
+      - "JDBC App: Implemented a JDBC to connect to a PSQL Database and gives the user the ability to interact and modify the PSQL database independantly of the persistance layer"
+      - "Twitter App: A Java application that allows the user to perform CRUD operations using the command line, implementated using Twitter's Rest API and created using Java/Maven"
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
